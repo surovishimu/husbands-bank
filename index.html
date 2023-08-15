@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimu's Money House</title>
+    <link rel="shortcut icon" href="./Image/cash.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div
+        class="bg-gradient-to-b from-indigo-500 to-purple-500 lg:max-w-screen-lg md:max-w-screen-md mx-auto text-center py-36 h-screen  pt-20">
+        <img class="w-16 h-16 mb-7 border-white rounded-full bg-white mx-auto lg:w-28 lg:h-28 p-2" src="./Image/key.png"
+            alt="">
+        <h1 class="text-white font-semibold mb-7 lg:text-4xl">LOG IN</h1>
+        <div class="grid gap-5 lg:text-2xl lg:gap-12">
+            <span><i class="fa-solid fa-envelope "></i><input type="email"
+                    class="bg-inherit  outline-none border-b ml-2 w-72" id="email-field"
+                    placeholder="Your Email Address"></span>
+            <span><i class="fa-solid fa-key"></i><input type="password"
+                    class="bg-inherit outline-none border-b ml-2 w-72" id="password-field"
+                    placeholder="Your Password"></span>
+            <span class="text-xs text-slate-300 lg:text-lg"><input type="checkbox" placeholder="Remember Me"> Remember
+                Me?</span>
+
+            <button class="h-9 w-20 lg:h-14 lg:w-28 rounded-lg bg-slate-300 mx-auto font-semibold hover:bg-neutral-50"
+                id="login-btn">Login</button>
+
+            <h2 class="text-slate-300 text-xs mt-12 lg:text-lg">Forgot password?</h2>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="bank.js"></script>
+</body>
+
+</html>
